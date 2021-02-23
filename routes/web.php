@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::get('/doc',);
 Route::get('/emqx','EmqxController@index');
+Route::get('/emqxApi','EmqxApiController@index');
